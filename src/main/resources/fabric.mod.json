@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "meumod",
+  "version": "${version}",
+  "name": "Meu Mod",
+  "description": "Um mod criado com o AutoCompiler.",
+  "authors": [
+    "Eu"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.exemplo.meumod.MeumodMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
